@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+    .container{
+            display: grid;
+            grid-template-columns:34px auto ;
+            background-color:yellow;
+            row-gap:9px; 
+            column-gap:100px; 
+            grid-gap:9px;
+            grid-column-end: 34px;
+             
+    
+        }
+        .b{
+            /* background: aquamarine; */
+            border: 2px solid red ;
+            background-image:url("Capture.JPG");
+            background-size:cover ;
+            background-repeat: no-repeat;
+            width: 100px;
+
+
+        }
+        .b1{
+            display: inline flex;
+            justify-content:left;
+            padding: 14px;  
+            align-content:center;
+        }
+        .d{
+            display: grid;
+            grid-gap:50% ;
+            grid-template-columns: 35vh 30vh;
+        }
+        .b3{
+            border: 2px solid red ;
+            background-image:url("Capture.JPG");
+            background-size:contain ;
+            background-repeat: no-repeat;
+            width: 70vh;
+            height: 50vh;
+
+        }
+        .b4{
+            border: 2px solid red ;
+            background-image:url("Capture.JPG");
+            background-size:contain ;
+            background-repeat: no-repeat;
+            /* background-position: 43px; */
+            width: 70vh;
+            height: 50vh;
+            /* padding: 50px; */
+            grid-column-end: 100vw;
+            display: flex;
+            justify-content:flex-end;
+
+        }
+        li{
+            display: inline;
+            padding:74px;
+            text-align: justify;
+        }
+        .img{
+            background-image: url("Capture.JPG");
+            /* background-repeat: no-repeat; */
+            background-size: contain;
+            width: 100%;
+            height: 40vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="b">1 </div>
+            <div class="b1"><ul><li>Home</li>
+            <li>About</li></ul></div>
+    </div>
+    <div class="img">kdjfl</div>
+    <div class="d">
+            <div class="b3">3  </div>
+            <div class="b4">4 </div>
+    </div>
+</body>
+</html>

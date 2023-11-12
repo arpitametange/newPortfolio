@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 23px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        ul li {
+            display: inline;
+         }
+
+        .img2 {
+            background-image: url("Capture.JPG");
+            background-size:cover;
+            width: 200vh;
+            height: 15vw;
+        }
+
+        .im3 {
+            background-image: url("Capture.JPG");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 30vh;
+            width: 30vw;
+            /* align-self: center; */
+            /* display: flex; */
+            /* align-content:flex-end; */
+            /* justify-content: center; */
+            /* flex-wrap: wrap; */
+        }
+        .box1 {
+            height: 30vh;
+            width: 30vw;
+            /* background: red; */
+            /* display: flex; */
+            /* justify-content: center; */
+            background-image: url("Capture.JPG");
+            background-size: contain;
+            background-repeat: no-repeat;
+        
+        }
+        .box2 {
+
+            height: 30vh;
+            width: 30vw;
+            /* background: rgb(102, 0, 255); */
+            background-image: url("Capture.JPG");
+            background-size: contain;
+            background-repeat: no-repeat;
+            /* display: flex; */
+            /* align-content: center; */
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="img">
+            <img src="/Capture.JPG" width="100px" alt="this is the image">
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About
+                </li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+      <div class="img2"></div>
+      <main>
+      <div class="im3"></div>
+      <div class="box1"></div>
+      <div class="box2"></div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+
+        *{
+            margin:0px;
+            margin: 0px;
+        }
+        body{
+          width: 50vw;
+          margin: 0px;
+          /* padding-right:0px 0px 0px 0px ; */
+        }
+        header{
+          position:sticky;
+           top: 0px;
+           /* display: grid;
+           grid-template-columns: 23px;
+           grid-gap: 23px; */
+          
+           
+        }
+         
+.material-icons{
+               padding: 30px 0px;
+        }
+        nav{
+            background: black;
+           width: 100vw;
+           height: 13vh;
+        }
+      .a  img{
+        width: 29vh;
+        /* color: black; */
+        margin: 11px;
+
+       }
+       .a img:hover{
+        border: 2px solid white;
+
+       }
+       .a{
+        display: flex;
+        align-items: center;
+        /* flex-direction: row */
+    
+       }
+       .t tr td{
+        padding: 0px 20vh;
+       }
+    .t{
+        padding: 0px 30px;
+        width: 0px 30px;
+    }
+    .t select{
+        /* width:  70vh; */
+
+    }
+    .t label{
+        padding: 0px 3px;
+
+    }
+.t input{
+    width: 70vh;
+    height: 33px;
+}
+    .id{
+        /* padding: 0px 2px; */
+    }
+        /* .t{
+        margin: 0px 20px;
+        color: wheat;
+        display: inline-flex;
+        padding: 0px 23px;
+        height: 23px;
+        width: 23px;
+       } */
+    
+       /* ul li{
+        list-style: none;
+        color: rgb(242, 237, 227);
+       }
+       ul :hover{
+        border: 2px solid white;       
+       } */
+       .list{
+        display: flex;
+        background: rgb(35, 35, 69);
+        width: 100vw;
+        height: 35px;
+        /* margin: 30px 0px; */
+        align-items: center;
+       
+       }
+       .list p{
+        margin: 0px 34px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Hind Madurai', sans-serif;
+         font-family: 'Josefin Sans', sans-serif;
+       }
+       main{
+        background: white url("https://source.unsplash.com/970x720/?white,white") no-repeat ;
+        background-size:cover  ;
+        width: 207vh;
+        height: 200vh;
+        /* border: 2px solid black; */
+        
+
+       }
+       
+       .box{
+        /* background: white; */
+        width: 34vh;
+        display: inline-flex;
+        align-items: flex-start;
+        margin: 0px 20px;
+        
+       }
+       .photo{
+        margin: 10px 10px 10px;
+       }
+       .container{
+        /* display: grid; */
+        /* grid-template-columns: auto; */
+        /* display: inline-flex;
+        /* grid-gap: 24px; */
+        /* flex-direction: row; */
+        /* margin: 59px; */ 
+        width: 100vw;
+       display: inline-flex;
+       flex-direction: row;
+        margin:59px;
+       }
+       .box1{
+        background: rgb(242, 242, 242);
+        /* border: 4px solid black; */
+        width: 80vh;
+        height: 60vh;
+        border-style: groove;
+      
+       }
+       .box1 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 13px;
+  
+
+       }
+       .box2{
+        background: rgb(242, 242, 242);
+        border: 4px solid black;
+        width: 79vh;
+        height: 60vh;
+        /* padding: 0px 53px; */
+        border-style: groove;
+        align-items: flex-start;
+        
+
+
+
+       }
+       .box2 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+       
+
+       }
+        .p1{
+    display: flex;
+    flex-direction: row;
+
+   }
+   .container2{
+    /* background: rgb(242, 240, 240); */
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    margin:59px;
+
+
+   }
+   .l1{
+    background: rgb(234, 234, 238);
+
+    width: 83vh;
+     height: 60vh;
+     border-style: groove;
+
+
+   }
+   .l1 p{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+   }
+   .l2{
+         background: rgb(234, 234, 238);
+         width: 79vh;
+        height: 60vh;
+        border-style: groove;
+
+
+   }
+   .l2 p{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+   }
+      .sign{
+        padding: 0px 23px;
+      }
+
+     .sign p button{
+        width: 45px;
+        padding: 0px 20px;
+        height: 30px;
+        text-align: center;
+      }
+       .u{
+        padding: 0px 23px 12px ;
+      
+       }
+       
+      .last{
+        background: black;
+        width: 100vw;
+        color: wheat;
+        display: inline-flex;
+        justify-content: center;
+        text-size-adjust:34px;
+        height: 13vh;
+        text-align: center;
+      
+      }
+      .u ul li{
+        margin: 0px 12vh;
+        color: black;
+      }
+      .u{
+        text-align:center;
+
+      }
+      .z{
+        /* display: inline; */
+        text-align:center;
+        /* width: 34px; */
+        margin: 0px 50vh;
+
+      }
+      .z ul li{
+        color: black;
+        list-style: none;
+
+      }
+      .m {
+        text-align:center;
+        /* align-items: center; */
+        /* height: 34vh; */
+        /* padding: 23px; */
+        margin: 0px 10vh;
+      }
+      .amazon{
+        margin: 23px;
+        /* font-weight: bold; */
+        font-family: 'Hind Madurai', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+
+      }
+      .y{
+        padding:0px 90vh;
+        text-align: center;
+        
+      }
+      .w{
+        display: inline-flex;
+        flex-direction: row;
+      }
+      .new{
+        color: white;
+        display: inline-flex;
+        /* padding: auto; */
+        flex-direction: row;
+      }
+      
+     
+  

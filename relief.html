@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodWebsite</title>
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/1000962832/vector/yummy-smile-delicious-tasty-eating-emoji-face-with-mouth-and-tongue-funny-hungry-mood-line.jpg?s=612x612&w=0&k=20&c=vz8wkaSwSU9Ej_MihohOvWu4S3oBkQ8f2rPF9e9H-g0=">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            width: 100%;
+            height: 43px;
+            background-color: #000;
+            color: white;
+            padding:  23px 22px;
+            position: sticky;
+            top: 0px;
+            animation: ar;
+        }
+        .n{
+           padding: 6px 53px;
+            /* word-spacing: 23px; */
+            text-transform: uppercase;
+            
+        }
+       
+        input[type='text']{
+            width: 95vh;
+            height: 30px;
+            background: rgb(202, 227, 227);
+            color: rgb(178, 31, 31);
+            font-weight: bolder;
+            
+        }
+        .n :hover {
+            color: blue;
+            
+        }
+        .h{
+            display: inline-flex;
+            flex-direction: row;
+        }
+        figure{
+            padding: 23px;
+
+        }
+        figcaption{
+            padding: 2px;
+        }
+        main{
+            background: linear-gradient(to bottom,pink 0%, rgb(206, 109, 125) 100%);
+            height: 120vw;
+              width: 102vw;
+        
+        }
+        img{
+            border: 2px solid rgb(58, 19, 48);
+        }
+        h1{
+            color: rgb(14, 14, 14);
+            text-transform: uppercase;
+            font-family: 'Playfair Display', serif;            text-align: center;
+            padding: 24px 150px  10px 38vh;
+            
+        }
+        @media  screen and (max-width:800px)  {
+            
+            header{
+            background: rgb(143, 143, 212);
+            height: 69px;
+            }
+            input[type='text']{
+                width: 57vh;
+                font-family: 'Roboto', sans-serif;   
+            
+
+            }
+            h1{
+                padding: 24px 150px  10px 28vh;
+
+            }
+           
+        }
+        .box{
+            background: #fea9e6;
+            color: rgb(85, 9, 51);
+            width: 250px;
+            height: 100px;
+            position: fixed;
+            bottom: 0px;
+            right:0px;
+            font-family: 'Roboto', sans-serif;   
+            z-index: 1; 
+            padding: 23px;   
+         }
+         .ama{
+            background: #c8bfbf;
+            width: 200px;
+            height: 150px;
+          padding:  34px ;
+          margin: 12px;
+            
+        }
+        .j{
+            position: relative;
+            display: inline-flex;
+            flex-direction: row;
+            right: 20px;
+               
+ 
+        }
+        .j figure{
+            
+            /* padding-bottom: 20px; */
+        }
+        .j img{
+            width: 10vh;
+            
+        }
+        .row{
+            display: inline-flex;
+            flex-direction: row;
+        }
+         footer{
+            background: #201f1f;
+            color: rgb(224, 113, 113);
+            height: 5vh;
+            text-align: center;
+            padding: 12px;
+           
+         }
+         .n {
+            display: inline-flex;
+            flex-direction: row;
+            
+         }
+         .n ul li{
+            list-style: none;
+            display: inline;
+            padding: 0px 15px 0px 20px;
+            color: white;
+            font-family: 'Roboto', sans-serif;  
+            color: #e7e2e5; 
+         }
+         b{
+            font-size:xx-large;
+    color: #f1c40f;
+         }
+         .n img{
+            max-width: 3%;
+            height:auto ;
+            border: yellow;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+      <div class="n">
+        <img src="https://media.istockphoto.com/id/1000962832/vector/yummy-smile-delicious-tasty-eating-emoji-face-with-mouth-and-tongue-funny-hungry-mood-line.jpg?s=612x612&w=0&k=20&c=vz8wkaSwSU9Ej_MihohOvWu4S3oBkQ8f2rPF9e9H-g0=" alt="">
+
+        <b><i>FOOD-WEBSITE</i></b> <i class="fa fa-cutlery" aria-hidden="true"></i>
+        <ul>
+            <li> <i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><i class="fa fa-info-circle" aria-hidden="true"></i>
+                About</li>
+            <li><i class="fa fa-phone-square" aria-hidden="true"></i>
+                Contact</a></li>
+        </ul>
+       <input type="text" placeholder="search here"><span class="s"> <i class="fa fa-search" aria-hidden="true"></i>
+        Search
+
+    </div>
+    </div>
+    </header>
+    <main>
+        <div class="box"><i class="fa fa-address-book" aria-hidden="true"></i>
+            You can give your personal details here<input type="text" placeholder="Details"> <input type="submit"></div>
+        <h1>food-website</h1>
+       <div class="h">
+        <figure>
+        <img src="https://source.unsplash.com/140x140/?burger" alt="">
+  <figcaption>burger</figcaption>
+
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?food" alt="">
+        <figcaption>Pizza</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+<figcaption>Shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?maggie,shopping" alt="">
+<figcaption>Shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+       <figcaption>Shopping</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?chocolate" alt="">
+        <figcaption>Chocolate</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?cake" alt="">
+        <figcaption>icecake</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+        <figcaption>accessories</figcaption>
+     </figure>
+    </div>
+
+
+    <div class="h">
+        <figure>
+            <img src="https://source.unsplash.com/140x140/?food court" alt="">
+            <figcaption>image of remote</figcaption>
+    </figure>
+    <figure>
+       <img src="https://source.unsplash.com/140x140/?shopping" alt="">
+       <figcaption>shopping</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?chocolate" alt="">
+        <figcaption>icecreame</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?cake" alt="">
+        <figcaption>icecake</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+        <figcaption>accessories</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?shopping" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    </div>
+
+
+    <div class="h">
+        <figure>
+            <img src="https://source.unsplash.com/140x140/?food court" alt="">
+            <figcaption>image of remote</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?food court" alt="">
+       <figcaption>shopping</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?chocolate" alt="">
+        <figcaption>icecreame</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?cake" alt="">
+        <figcaption>icecake</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?jwellery" alt="">
+        <figcaption>accessories</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?candy" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?dairy milk" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?junk food" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    </div>
+
+
+
+    <div class="h">
+        <figure>
+        <img src="https://source.unsplash.com/140x140/?sandwich" alt="">
+  <figcaption>image of remote</figcaption>
+    </figure>
+    <figure>
+       <img src="https://source.unsplash.com/140x140/?samosa" alt="">
+       <figcaption>shopping</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?chocolate" alt="">
+        <figcaption>icecreame</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?cake" alt="">
+        <figcaption>icecake</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?bread" alt="">
+        <figcaption>accessories</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?food" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?samosa" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?candy" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    </div>
+
+    <div class="h">
+        <figure>
+        <img src="https://source.unsplash.com/140x140/?food" alt="">
+  <figcaption>image of remote</figcaption>
+    </figure>
+    <figure>
+       <img src="https://source.unsplash.com/140x140/?food" alt="">
+       <figcaption>shopping</figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?chocolate" alt="">
+        <figcaption>icecreame</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?cake" alt="">
+        <figcaption>icecake</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?choco" alt="">
+        <figcaption>accessories</figcaption>
+     </figure>
+     <figure>
+        <img src="https://source.unsplash.com/140x140/?shopping ,food" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?shopping ,food" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    <figure>
+        <img src="https://source.unsplash.com/140x140/?shopping ,food" alt="">
+<figcaption>shoopingg </figcaption>
+    </figure>
+    </div>
+    <h1>Drinks,Beverages</h1>
+<div class="row">
+    <div class="ama">
+           <div class="j">
+        <figure>
+            <img src="https://source.unsplash.com/140x140/?Daiquiri ,drinks" alt="">
+            <figcaption class="foodc">food court</figcaption>
+        </figure>
+        <figure>
+            <img src="https://source.unsplash.com/140x140/?Cosmopolitan ,drinks" alt="">
+            <figcaption class="foodc">food court</figcaption>
+        </figure>
+           </div>
+</div>
+
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?Manhattan,drinks" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?Negroni,drinks" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?sprite,drinks" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?apple ,drinks" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+    <div class="ama">
+        <div class="j">
+     <figure>
+         <img src="https://source.unsplash.com/140x140/?cofee ,food" alt="">
+         <figcaption class="foodc">food court</figcaption>
+     </figure>
+     <figure>
+         <img src="https://source.unsplash.com/140x140/?shopping ,food" alt="">
+         <figcaption class="foodc">food court</figcaption>
+     </figure>
+        </div>
+    </div>
+    <div class="ama">
+        <div class="j">
+     <figure>
+         <img src="https://source.unsplash.com/140x140/?shopping ,cold drinks" alt="">
+         <figcaption class="foodc">food court</figcaption>
+     </figure>
+     <figure>
+         <img src="https://source.unsplash.com/140x140/?shopping ,coffee" alt="">
+         <figcaption class="foodc">food court</figcaption>
+     </figure>
+        </div>
+    </div>
+</div>
+<h1>FRUITS & JUICE</h1>
+<div class="row">
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?BeerMargarita,food" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?CoconutMargarita,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?juice ,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?Pomegranate ,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?Cranberry ,JUICE" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?Beet ,JUICE" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/? berry,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?orange,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+<div class="ama">
+    <div class="j">
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?apple ,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+ <figure>
+     <img src="https://source.unsplash.com/140x140/?Prune ,juice" alt="">
+     <figcaption class="foodc">food court</figcaption>
+ </figure>
+    </div>
+</div>
+</div>
+    </main>
+    
+    <footer>
+    WWW.FOODWEBSITE.com &copy; FoodWebsite.gmail.com
+    </footer>
+</body>
+</html>

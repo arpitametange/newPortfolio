@@ -1,0 +1,32 @@
+:root{
+    --main-bg-color:#3498db;
+}
+.card{
+
+    display: flex;
+    flex-direction:row ;
+    /* justify-content: center; */
+    background:var(--main-bg-color);
+    
+}
+h1{
+
+}
+
+.photo{
+    margin: 0px 13px;
+    animation: ani 3s 1s;
+
+}
+@keyframes ani {
+    
+    from{
+        <img src="https://source.unsplash.com/160x160/?necklace,accessories" alt="">
+
+    }
+   to {
+
+    <img src="https://source.unsplash.com/160x160/?accessories" alt="">
+
+    }
+}

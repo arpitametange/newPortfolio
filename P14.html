@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        .container{
+            background-color: white;
+            height: 523px; 
+            overflow: hidden;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            animation: arp1 infinite;
+            animation: arp2 infinite; 
+        }
+        
+        @keyframes arp1 {
+                0%{ 
+                    transform: translate(-8vw);
+                    
+              }
+              100%{
+                transform: translate(85vw);
+              }
+          
+            
+        }
+        @keyframes arp2 {
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(92vw);
+            }
+            
+        }
+        @keyframes arp3 {
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(100vw);
+            }
+            
+        }
+       
+        
+        .img1{
+            transform: translate(-9vw);
+            animation: arp1  4s 1s forwards ;
+            display: flex;
+            flex: left;
+            /* float:inline-start; */
+
+        }
+        .img2{
+            transform: translate(0vw);
+            animation: arp2 5s 2s forwards ;
+            display: flex;
+            flex: right;
+            /* float:inline-start; */
+        }
+        .img3{
+            transform: translate(8vw);
+            /* animation: arp3 5s 3s forwards infinite; */
+            /* display: flex; */
+            /* float: inline-end; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img1"><img src="https://source.unsplash.com/960x510/?nature,water" alt="">
+    <div class="img2"><img src="https://source.unsplash.com/960x520/?nature,water" alt="">
+    <div class="img3"><img src="https://source.unsplash.com/960x522/?nature,water" alt="">
+    </div>
+</body>
+</html>

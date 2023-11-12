@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        .header{
+              background: black;
+              width: 100%;
+
+              
+        }
+        li{
+            color: white;
+            display: inline grid;
+            grid-template-columns: 15px 15px ;
+            margin:0px 15px;
+            height: 50px;
+            padding: 34px;
+        }
+        .containt{
+            background: rgb(55, 192, 28);
+            color: black;
+            height: 34vh;
+            padding: 34px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        @media screen  and (max-width:1000px){
+               .header{
+                background-color: blue;
+            }
+            
+        }
+        @media screen  and (max-width:800px){
+               .header{
+                background-color: rgb(255, 0, 115);
+            }
+            
+        }
+        @media  screen and (max-width:1000px) {
+            .containt{
+                background: rgb(223, 12, 12);
+            }
+            
+        }
+        @media  screen and (max-width:800px) {
+            .containt{
+                background: rgb(215, 212, 15);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul><li>Home</li>
+        <li>About
+        </li> </ul>
+    </div>
+    <div class="containt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum atque reprehenderit expedita doloremque optio ad cupiditate culpa quod, inventore nam aliquid aliquam minus facere, delectus voluptates ipsum maxime autem incidunt molestias rerum ea est!</div>
+</body>
+</html>

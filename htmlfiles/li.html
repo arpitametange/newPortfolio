@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1 class="n">this sis the </h1>
+    <ul id="parent">
+        <li class="n">orange</li>
+        <li class="n">apples</li>
+        <li class="n">shape</li>
+    </ul>
+  
+    <p id="you" >this si th eparagarr</p>
+    <a href="https://www.google.com/"  class="name"></a>
+    <img src="/web.jpeg" alt=""  id="img">
+    <script>
+        const p=document.querySelector("#parent")
+        const k=document.querySelectorAll(".n")
+        k[1].style.position="relative";
+
+        const ne=document.getElementsByTagName("h1")
+        ne.innerHTML="this is the n class"
+        console.log(ne);
+        const r=document.querySelector("h1.n")
+        r.setAttribute("href","https://in.linkedin.com/")
+        console.log(r);
+        const t=document.querySelector("#img")
+         t.setAttribute("src", "/Capture.JPG")
+         console.log(t);
+    </script>
+</body>
+</html>

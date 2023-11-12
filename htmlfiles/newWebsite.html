@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       
+       footer{
+        text-align: center;
+        font-style: oblique;
+       }
+
+     footer, nav{
+            background: #000;
+            height: 94px;
+            width: 100%;
+            color: wheat;
+            
+             
+           
+            /* padding: 23px; */
+        }
+        nav ul{
+            display: inline-flex;
+            flex-direction: row;
+            font-size:larger;
+             list-style: none;
+             padding: 23px;
+             font-weight: bolder;
+
+        }
+        .t{
+            position: relative;
+            left: 34px;
+        }
+        .p{
+            position: relative;
+            left: 60px;
+
+        }
+        img{
+            border: 1px solid;
+            border-radius: 34px;
+            position: relative;
+            top: 34px;
+            left: 93px;
+            animation: ig 3s ;
+        }
+    
+            @media screen and (max-width:800px) {
+                body{
+                    background: wheat;
+                }
+                img{
+                    width: 300px;
+                }
+            }
+     @keyframes ig {
+        from{
+             transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        to{
+        transition-property: all;
+        }
+     }
+     
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul ><li >Home </li>  
+            <li class="t"> Info</li>  
+            <li class="p"> Number</li>
+        </ul>
+    </nav>
+    <!-- <img src="/tinypanda.jpg" alt="" > -->
+
+    <a href="/Capture.JPG" target="f" >link</a>
+    <iframe src="/image.jpg.jpg" name="f" frameborder="9" width="500px"  height="500px">this si hte</iframe>
+
+</body>
+<footer>@facebook.come </footer>
+</html>

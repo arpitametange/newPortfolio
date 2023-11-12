@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/clothing.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <title>clothing site</title>
+</head>
+<body>
+    <div class="container"  >
+      <div class="item"  >
+        <br>
+        <h1><i>Clothing site</i></h1>
+        <br>
+        <img src="/pexels-andrea-piacquadio-3755706.jpg"  style="width: 42%;"  alt="">
+<table style="  padding-left: 141px; margin-top:59px ;">
+        <tr>
+            <th> <button style="width:50px; height: 34px;" class="login">login</button>
+              
+              
+   
+            <input type="signup" value="signup" style="background-color:black ; color:white;
+                width:50px; height: 30px; text-align: center; " class="signup">
+            
+
+
+
+ </th>
+
+        </tr>
+        <p>Explore the new brands</p>
+       </table>
+      
+      </div>
+       <div class="item2"  >
+        <img src="/pexels-lumn-322207.jpg"  style="width: 100%;" alt=""> 
+    </div>
+   
+    <footer >
+      <div class="new" style="background-color: brown; height: 23px; font-weight: bolder;">Follow us at -
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </div>
+    
+        <div class="text-center text-dark " style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">clothingSite.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+     <script>
+      let element=document.querySelector(".login")
+      element.addEventListener("click",()=>{
+        confirm("want to login")
+        let namee=prompt("add the name","name")
+       
+       
+           if (namee==null|| namee==undefined || typeof namee=="number") {
+                     alert("enter the valid name")
+               } else {
+               alert("id is correct")
+             }
+       let number= prompt("add the no","number")
+       let t=+number
+        if (isNaN(t) || number==null || t==undefined ) {
+          alert("please eneter the valid no");
+        }
+        else{
+        alert("congratulations...! Now you can explore the website")
+        }
+      })
+      let element2=document.querySelector(".signup")
+      element2.addEventListener("click",()=>{
+         confirm("your account is creted")
+      })
+     </script>   
+</body>
+</html>

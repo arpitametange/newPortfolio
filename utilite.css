@@ -1,0 +1,33 @@
+.c{
+    text-align: center;
+
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background: #000;
+    }
+    nav{
+        flex-direction: column;
+    
+
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+    }
+    
+}

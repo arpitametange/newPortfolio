@@ -1,0 +1,21 @@
+p{
+    color: black;
+    /* background: red; */
+    
+ animation: p  6s  ease-in;
+ transform-origin: center;
+ margin: auto;
+ width: 0px;
+}
+@keyframes p {
+    from{
+        transform: skew(1deg);
+
+    }
+     to{
+        transform: skew(180deg);
+
+     }
+    
+}
+

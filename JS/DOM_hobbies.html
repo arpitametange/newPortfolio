@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+        
+<p id="hobbies">Hobbies</p>
+
+
+<script>
+     let event=document.querySelector("#hobbies")
+     event.addEventListener("click" ,() =>{
+       let pro=prompt("add")
+           let element=document.createElement("li")
+           let t= document.createTextNode(pro)
+           element.appendChild(t)
+           event.appendChild(element)
+           console.log(element);
+           
+    })
+
+    </script>
+</body>
+</html>

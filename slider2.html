@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <style>
+        .img{
+            display: flex;
+            justify-content: center;
+        }
+       
+        
+        @keyframes animator {
+            from{ 
+                transform: translate(-8vw);
+
+            }
+            to{
+                transform: translate(85);
+
+            }
+        }
+        @keyframes animator2 {
+            from{
+                transform: translate(0vw);
+
+            }
+            to{
+                transform: translate(92vw);
+
+            }
+        }
+        .img1{
+            transform: translate(-8vw);
+            animation: animator 2s 1s forwards infinite;
+
+        }
+        .img2{
+            transform: translate(0vw);
+            animation: animator2 2s 1s forwards infinite;
+
+            
+        }
+        .img3{
+            transform: translate(8vw);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+        <img class="img1" src="https://source.unsplash.com/1000x400/?shopping,ecommerce" alt="" >
+        <img class="img2" src="https://source.unsplash.com/1000x400/?cars,ecommerce" alt="" >
+        <img class="img3" src="https://source.unsplash.com/1000x400/?shopping,ecommerce" alt="" >
+        </div>
+    </div>
+    </div>
+</body>
+</html>
